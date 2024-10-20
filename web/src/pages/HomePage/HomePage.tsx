@@ -1,5 +1,5 @@
 import { Metadata } from '@redwoodjs/web'
-
+import ArticlesCell from 'src/components/ArticlesCell'
 const HomePage = () => {
   return (
     <>
@@ -12,6 +12,8 @@ const HomePage = () => {
         Enfoque personalizado: Cada proyecto es único para nosotros. Trabajamos de cerca contigo para entender y superar tus expectativas.
         Compromiso con la calidad: Nos enorgullecemos de entregar productos y servicios que no solo cumplen, sino que superan los estándares más altos de calidad.
       </p>
+       {/* importacion de la celda Articles */}
+      <ArticlesCell />
 
     </>
   )

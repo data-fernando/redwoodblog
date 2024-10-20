@@ -1,3 +1,4 @@
+// estos se llaman resolvers
 export const schema = gql`
   type Post {
     id: Int!
